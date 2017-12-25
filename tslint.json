@@ -1,0 +1,23 @@
+{
+    "extends": "tslint:all",
+    "rules": {
+        "no-console": false,
+        "linebreak-style": [
+            true,
+            "CRLF"
+        ],
+        "interface-name": false,
+        "member-ordering": false,
+        "trailing-comma": false,
+        "member-access": false,
+        "no-parameter-properties": false,
+        "arrow-parens": false,
+        "typedef": false,
+        "no-magic-numbers": false,
+        "prefer-function-over-method": false,
+        "variable-name": false,
+        "triple-equals": false,
+        "align": false,
+        "binary-expression-operand-order": false
+    }
+}

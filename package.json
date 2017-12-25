@@ -1,0 +1,13 @@
+{
+    "name": "omikuji2018",
+    "version": "1.0.0",
+    "description": "2018年のあなたの運勢は!?",
+    "main": "./build/main.js",
+    "scripts": {
+        "build": "tsc -p ./",
+        "run": "node --harmony ./build/main.js"
+    },
+    "devDependencies": {
+        "@types/node": "^8.5.2"
+    }
+}
