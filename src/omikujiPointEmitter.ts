@@ -9,6 +9,6 @@ export interface OmikujiPointEmitter {
 export class DefaultOmikujiPointEmitter implements OmikujiPointEmitter {
     emit(): number {
         // ランダムで1~5を返す
-        return Math.floor(Math.random() * 4) + 1;
+        return Math.round(Math.random() * 4) + 1;
     }
 }
